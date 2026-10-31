@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
 import { flushSync } from 'react-dom';
-import './app.css';
+import "./App.css";
 const photo = "/photo.jpg";
 
 const REDUCED = typeof window !== 'undefined' && !!window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
